@@ -9,7 +9,7 @@ The Android App built using Jetpack Compose that allows users to browse movies. 
 1. Clone the repository:
 
 ```
-  git clone 
+  git clone https://github.com/etharalrehaili/WeeklyAssignment1.git
 ```
 
 2. Open the project in Android Studio
