@@ -85,11 +85,9 @@ class MainActivity : ComponentActivity() {
                         Text(text = msg.movieName, fontWeight = FontWeight.Bold, fontSize = 29.sp)
                         Spacer(modifier = Modifier.height(8.dp))
 
-                        // Row with movie year and resolution buttons (720p, 1080p)
                         Row(verticalAlignment = Alignment.CenterVertically) {
                             Text(text = msg.movieYear, fontSize = 24.sp)
 
-                            // Space between the year and the resolution buttons
                             Spacer(modifier = Modifier.width(8.dp))
 
                             // 720p button
@@ -118,7 +116,7 @@ class MainActivity : ComponentActivity() {
                         }
 
                         // Play Button
-                        Spacer(modifier = Modifier.height(6.dp)) // Space between follower count and Play button
+                        Spacer(modifier = Modifier.height(6.dp)) 
 
                         Button(
                             onClick = { },
